@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Zip files
+*.zip
+
+# Env files
+.env
+
+# (Optional) Ignore screenshots in repo, or remove this line if you want to commit them
+screenshots/
