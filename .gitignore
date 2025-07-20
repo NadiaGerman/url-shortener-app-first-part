@@ -13,4 +13,4 @@ __pycache__/
 .env
 
 # (Optional) Ignore screenshots in repo, or remove this line if you want to commit them
-screenshots/
+#screenshots/
