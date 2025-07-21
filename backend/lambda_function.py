@@ -5,7 +5,7 @@ import secrets
 import string
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table(os.environ['DDB_TABLE_NAME'])
+table = dynamodb.Table(os.environ['DDB_TABLE_NAME']) # type: ignore
 
 def generate_short_id(length=6):
     alphabet = string.ascii_letters + string.digits
